@@ -81,7 +81,7 @@ body {
     margin-bottom: 42px;
 }
 
-.general-section-button {
+.main-button {
     background: #F1CDB3;
     border-radius: 100px;
     font-style: normal;
@@ -132,5 +132,76 @@ body {
     line-height: 160%;
     color: #4C4C4C;
     width: 70%;
+}
+
+.our-friends-section {
+    padding: 80px 40px 100px;
+    background: #F6F6F6;
+    text-align: center;
+}
+
+.fa-solid {
+    border-radius: 50%;
+    border: 2px solid #F1CDB3;
+    width: 52px;
+    height: 52px;
+    line-height: 52px
+}
+
+.our-friends-title {
+    margin: 0 auto;
+    max-width: 400px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    text-align: center;
+}
+
+.our-friends-details {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.our-friends-pets {
+    display: flex;
+    margin-top: 60px;
+}
+
+.friend-pet {
+    margin: 0 45px 30px 45px;
+    background: #FAFAFA;
+}
+
+.friend-pet-name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.secondary-button {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    border: 2px solid #F1CDB3;
+    padding: 15px 45px;
+    background: #FAFAFA;
+    border-radius: 100px;
+    font-family: 'Georgia';
+}
+
+.pets-button {
+    margin-top: 60px;
 }
 
