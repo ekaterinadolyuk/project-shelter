@@ -95,3 +95,42 @@ body {
     padding: 15px 45px;
 }
 
+.about-section {
+    display: flex;
+    align-items: center;
+    margin: 80px 40px;
+}
+
+.about-image-container {
+    text-align: center;
+    width: 50%;
+}
+
+.about-description {
+    width: 50%;
+}
+
+.about-heading {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    color: #545454;
+    letter-spacing: 0.06em;
+    margin-top: 0;
+}
+
+.about-heading:first-child {
+    margin-bottom: 0;
+}
+
+.about-text {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #4C4C4C;
+    width: 70%;
+}
+
