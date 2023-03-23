@@ -305,3 +305,7 @@ body {
     line-height: 18px;
     color: #B2B2B2;
 }
+
+.footer {
+    background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
+}
