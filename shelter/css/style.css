@@ -205,3 +205,39 @@ body {
     margin-top: 60px;
 }
 
+.help-section {
+    padding: 80px 40px 100px;
+    text-align: center;
+}
+
+.help-title {
+    margin: 0 auto;
+    max-width: 400px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    text-align: center;
+}
+
+.help-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.help-item {
+    margin: 30px 60px;
+}
+
+.help-item-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
