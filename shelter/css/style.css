@@ -241,3 +241,67 @@ body {
     letter-spacing: 0.06em;
     color: #545454;
 }
+
+.donation-section {
+    background: #F6F6F6;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.donation-container {
+    margin: 0 auto;
+    max-width: 915px;
+    display: flex;
+}
+
+.donation-dog {
+    padding-right: 30px;
+}
+
+.donation-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin: 0 0 20px 0;
+}
+
+.donation-subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin: 0 0 20px 0;
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    background: #F1CDB3;
+    border-radius: 9px;
+    padding: 10px 7px;
+    margin: 0 0 20px 0;
+}
+
+.card-number {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin: 0;
+}
+
+.donation-description {
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B2B2B2;
+}
