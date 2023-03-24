@@ -146,12 +146,30 @@ body {
     text-align: center;
 }
 
-.fa-arrow-left-long, .fa-arrow-right-long {
+.fa-arrow-right-long {
     border-radius: 50%;
     border: 2px solid #F1CDB3;
     width: 52px;
     height: 52px;
-    line-height: 52px
+    line-height: 52px;
+}
+
+.fa-arrow-right-long:hover {
+    border-radius: 50%;
+    border: 2px solid #F1CDB3;
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    background-color: #F1CDB3;
+}
+
+.fa-arrow-left-long:empty{
+    border-radius: 50%;
+    border: 2px solid #CDCDCD;
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    color: #CDCDCD;
 }
 
 .our-friends-title {
