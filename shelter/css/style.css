@@ -1,7 +1,10 @@
 body {
+    font-family: 'Georgia';
+}
+
+.section {
     width: 1280px;
     margin: 0 auto;
-    font-family: 'Georgia';
 }
 
 .header {
@@ -163,6 +166,7 @@ body {
 .our-friends-details {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     text-align: center;
 }
 
@@ -309,6 +313,9 @@ body {
 
 .footer {
     background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
+}
+
+.footer-container {
     display: flex;
     justify-content: space-between;
     padding: 40px 40px 0 40px;
