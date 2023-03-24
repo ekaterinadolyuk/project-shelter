@@ -98,6 +98,10 @@ body {
     padding: 15px 45px;
 }
 
+.main-image, .puppy-image {
+    display: block;
+}
+
 .about {
     display: flex;
     align-items: center;
