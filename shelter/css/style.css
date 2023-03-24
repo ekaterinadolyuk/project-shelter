@@ -140,7 +140,7 @@ body {
     text-align: center;
 }
 
-.fa-solid {
+.fa-arrow-left-long, .fa-arrow-right-long {
     border-radius: 50%;
     border: 2px solid #F1CDB3;
     width: 52px;
@@ -308,4 +308,62 @@ body {
 
 .footer {
     background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px 0 40px;
+}
+
+.contact-headline, .address-headline {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.address-headline {
+    margin-bottom: 34px;
+}
+
+.email-container {
+    margin-bottom: 40px;
+}
+
+.first-address {
+    margin-bottom: 32px;
+}
+
+.email, .phone-number, .first-address-location, .second-address-location {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+    text-decoration: none;
+    display: flex;
+    align-items: center
+}
+
+.email-text, .phone-text {
+    margin-left: 20px;
+}
+
+.first-address-location {
+    display: flex;
+}
+
+.second-address-location {
+    display: flex;
+}
+
+.fa-location-dot {
+    font-size: xx-large;
+    color: #F1CDB3;
+}
+
+.first-address-text, .second-address-text {
+    margin: 0 0 0 20px;
 }
