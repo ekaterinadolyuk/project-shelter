@@ -56,6 +56,11 @@ body {
     color:#FAFAFA;
 }
 
+.navigation-item:active {
+    color: #e49156;
+    border-bottom: 3px solid #e49156;
+}
+
 .not-only {
     display: flex;
     align-items: center;
@@ -84,7 +89,7 @@ body {
 }
 
 .main-button {
-    background: #F1CDB3;
+    background: #FDDCC4;
     border-radius: 100px;
     font-style: normal;
     font-weight: 400;
@@ -95,6 +100,14 @@ body {
     font-family: 'Georgia';
     border: none;
     padding: 15px 45px;
+}
+
+.main-button:hover {
+    background: #F1CDB3;
+}
+
+.main-button:active {
+    background: #e49156;
 }
 
 .main-image, .puppy-image {
@@ -163,6 +176,11 @@ body {
     background-color: #F1CDB3;
 }
 
+.fa-arrow-right-long:active {
+    background: #e49156;
+    border: 2px solid #e49156;
+}
+
 .fa-arrow-left-long:empty{
     border-radius: 50%;
     border: 2px solid #CDCDCD;
@@ -202,6 +220,10 @@ body {
     padding-bottom: 30px;
 }
 
+.friend-pet:hover {
+    transition: width 2s linear 1s;
+}
+
 .friend-pet-name {
     font-style: normal;
     font-weight: 400;
@@ -225,6 +247,15 @@ body {
     background: #FAFAFA;
     border-radius: 100px;
     font-family: 'Georgia';
+}
+
+.secondary-button:hover {
+    background: #F1CDB3;
+}
+
+.secondary-button:active {
+    background: #e49156;
+    border: 2px solid #e49156;
 }
 
 .pets-button {
@@ -370,7 +401,7 @@ body {
     font-size: 20px;
     line-height: 115%;
     letter-spacing: 0.06em;
-    color: #F1CDB3;
+    color:#FDDCC4;
     text-decoration: none;
     display: flex;
     align-items: center
@@ -390,9 +421,17 @@ body {
 
 .fa-location-dot {
     font-size: xx-large;
-    color: #F1CDB3;
+    color: #FDDCC4;
 }
 
 .first-address-text, .second-address-text {
     margin: 0 0 0 20px;
+}
+
+.email-text:hover, .phone-text:hover, .first-address-text:hover, .second-address-text:hover {
+    color: #F1CDB3;
+}
+
+.email-text:active, .phone-text:active, .first-address-text:active, .second-address-text:active {
+    color:#e49156;
 }
