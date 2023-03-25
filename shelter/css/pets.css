@@ -1,0 +1,19 @@
+.header {
+    background: none;
+    padding: 30px 40px 0 40px;
+}
+
+.header-headline, .header-description, .navigation-item {
+    color: #545454;
+}
+
+.navigation-item:hover, .navigation-active-item {
+    cursor: pointer;
+    border-bottom: 3px solid #F1CDB3;
+    color:#000;
+}
+
+.navigation-item:active {
+    color: #e49156;
+    border-bottom: 3px solid #e49156;
+}
