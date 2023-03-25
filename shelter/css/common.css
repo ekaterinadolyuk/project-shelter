@@ -1,0 +1,149 @@
+body {
+    font-family: 'Georgia';
+}
+
+.section {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.header {
+    background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
+    padding: 30px 40px 0 40px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-link {
+    text-decoration: none;
+    color:#F1CDB3;
+}
+
+.logo-link:hover {
+    color: #FDDCC4;
+}
+
+.logo-link:active {
+    color:#e49156;
+}
+
+.header-headline {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    margin-bottom: 0;
+}
+
+.header-description {
+    color:#FFFFFF;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+}
+
+.navigation {
+    display: flex;
+    font-family: 'Arial';
+    font-size: 15px;
+    margin-bottom: 0;
+    color: #CDCDCD;
+}
+
+.navigation-item {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #CDCDCD;
+}
+
+.navigation-item:hover, .navigation-active-item {
+    cursor: pointer;
+    border-bottom: 3px solid #F1CDB3;
+    color:#FAFAFA;
+}
+
+.navigation-item:active {
+    color: #e49156;
+    border-bottom: 3px solid #e49156;
+}
+
+.footer {
+    background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px 0 40px;
+}
+
+.contact-headline, .address-headline {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.address-headline {
+    margin-bottom: 34px;
+}
+
+.email-container {
+    margin-bottom: 40px;
+}
+
+.first-address {
+    margin-bottom: 32px;
+}
+
+.email, .phone-number, .first-address-location, .second-address-location {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color:#FDDCC4;
+    text-decoration: none;
+    display: flex;
+    align-items: center
+}
+
+.email-text, .phone-text {
+    margin-left: 20px;
+}
+
+.first-address-location {
+    display: flex;
+}
+
+.second-address-location {
+    display: flex;
+}
+
+.fa-location-dot {
+    font-size: xx-large;
+    color: #FDDCC4;
+}
+
+.first-address-text, .second-address-text {
+    margin: 0 0 0 20px;
+}
+
+.email-text:hover, .phone-text:hover, .first-address-text:hover, .second-address-text:hover {
+    color: #F1CDB3;
+}
+
+.email-text:active, .phone-text:active, .first-address-text:active, .second-address-text:active {
+    color:#e49156;
+}
