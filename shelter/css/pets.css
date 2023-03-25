@@ -21,3 +21,36 @@
 .our-friends-pets {
     flex-wrap: wrap;
 }
+
+.second-double-arrow:empty, .first-simple-arrow:empty{
+    border-radius: 50%;
+    border: 2px solid #CDCDCD;
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    color: #CDCDCD;
+    text-decoration: none;
+}
+
+.page-button {
+    background: #FDDCC4;
+    border-radius: 100px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    font-family: 'Georgia';
+    border: none;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.page-button:hover {
+    background: #F1CDB3;
+}
+
+.page-button:active {
+    background: #e49156;
+}
