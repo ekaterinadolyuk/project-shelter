@@ -18,8 +18,20 @@ body {
     align-items: center;
 }
 
-.header-headline {
+.logo-link {
+    text-decoration: none;
     color:#F1CDB3;
+}
+
+.logo-link:hover {
+    color: #FDDCC4;
+}
+
+.logo-link:active {
+    color:#e49156;
+}
+
+.header-headline {
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -48,6 +60,8 @@ body {
 
 .navigation-item {
     margin-left: 30px;
+    text-decoration: none;
+    color: #CDCDCD;
 }
 
 .navigation-item:hover, .navigation-active-item {
@@ -100,6 +114,7 @@ body {
     font-family: 'Georgia';
     border: none;
     padding: 15px 45px;
+    text-decoration: none;
 }
 
 .main-button:hover {
@@ -260,6 +275,7 @@ body {
 
 .pets-button {
     margin-top: 60px;
+    text-decoration: none;
 }
 
 .help {
@@ -344,13 +360,27 @@ body {
     margin: 0 0 20px 0;
 }
 
+.card-link {
+    text-decoration: none;
+    color: #545454;
+}
+
+.card-link:hover {
+    text-decoration: none;
+    color: #FDDCC4;
+}
+
+.card-link:active {
+    text-decoration: none;
+    color: #e49156;
+}
+
 .card-number {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 115%;
     letter-spacing: 0.06em;
-    color: #545454;
     margin: 0;
 }
 
