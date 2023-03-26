@@ -49,7 +49,7 @@
     padding-top: 30px;
 }
 
-.arrow {
+.arrow-left {
     text-decoration: none;
     pointer-events: none;
     margin-left: 10px;
@@ -59,6 +59,8 @@
 .arrow-right {
     cursor: pointer;
     text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .page-button {
