@@ -11,8 +11,8 @@
     <title>Shelter</title>
 </head>
 <body>
-    <header class="header">
-        <div class="section">
+    <div class="header-container">
+        <header class="header section">
             <div class="main-header">
                 <a href="" class="logo-link">
                     <h3 class="header-headline">Cozy House</h3>
@@ -25,18 +25,20 @@
                     <a href="#footer" class="navigation-item">Contacts</a>
                 </nav>
             </div>
-        </div>
-        <section class="not-only section">
-            <div class="information-container">
-                <h1 class="section-headline">Not only people<br>need a house</h1>
-                <p class="section-description">We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!</p>
-                <a href="#our-friends"  class="main-button">Make a friend</a>
-            </div>
-            <div class="image-container">
-                <img src="./img/start-screen-puppy.png" alt="start-screen-puppy" class="main-image">
+        </header>
+        <section class="section">
+            <div class="not-only">
+                <div class="information-container">
+                    <h1 class="section-headline">Not only people<br>need a house</h1>
+                    <p class="section-description">We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!</p>
+                    <a href="#our-friends"  class="main-button">Make a friend</a>
+                </div>
+                <div class="image-container">
+                    <img src="./img/start-screen-puppy.png" alt="start-screen-puppy" class="main-image">
+                </div>
             </div>
         </section>
-    </header>
+    </div>
     <main>
         <section class="section">
             <div class="about">
@@ -51,33 +53,37 @@
                 </div>
             </div>
         </section>
-        <section class="our-friends" id="our-friends">
-            <div class="section">
-                <h3 class="our-friends-title">Our friends who<br>are looking for a house</h3>
-                <div class="our-friends-details">
-                    <i class="fa-sharp fa-solid fa-arrow-left-long"></i>
-                    <div class="our-friends-pets">
-                        <div class="friend-pet">
-                            <img src="./img/pets-katrine.png" alt="katrine" class="friend-pet-image">
-                            <div class="friend-pet-name">Katrine</div>
-                            <button class="secondary-button">Learn more</button>
+        <div class="our-friends-container" id="our-friends">
+            <section class="section">
+                <div class="our-friends">
+                    <h3 class="our-friends-title">Our friends who<br>are looking for a house</h3>
+                    <div class="our-friends-details">
+                        <i class="fa-sharp fa-solid fa-arrow-left-long"></i>
+                        <div class="our-friends-pets">
+                            <div class="friend-pet">
+                                <img src="./img/pets-katrine.png" alt="katrine" class="friend-pet-image">
+                                <div class="friend-pet-name">Katrine</div>
+                                <button class="secondary-button">Learn more</button>
+                            </div>
+                            <div class="friend-pet">
+                                <img src="./img/pets-jennifer.png" alt="jennifer" class="friend-pet-image">
+                                <div class="friend-pet-name">Jennifer</div>
+                                <button class="secondary-button">Learn more</button>
+                            </div>
+                            <div class="friend-pet">
+                                <img src="./img/pets-woody.png" alt="woody" class="friend-pet-image">
+                                <div class="friend-pet-name">Woody</div>
+                                <button class="secondary-button">Learn more</button>
+                            </div>
                         </div>
-                        <div class="friend-pet">
-                            <img src="./img/pets-jennifer.png" alt="jennifer" class="friend-pet-image">
-                            <div class="friend-pet-name">Jennifer</div>
-                            <button class="secondary-button">Learn more</button>
-                        </div>
-                        <div class="friend-pet">
-                            <img src="./img/pets-woody.png" alt="woody" class="friend-pet-image">
-                            <div class="friend-pet-name">Woody</div>
-                            <button class="secondary-button">Learn more</button>
-                        </div>
+                        <i class="fa-sharp fa-solid fa-arrow-right-long"></i>
                     </div>
-                    <i class="fa-sharp fa-solid fa-arrow-right-long"></i>
+                    <div class="pets-button-container">
+                        <a href="toPets" target="_blank" class="main-button pets-button">Get to know the rest</a>
+                    </div>
                 </div>
-                <a href="toPets" target="_blank" class="main-button pets-button">Get to know the rest</a>
-            </div>
-        </section>
+            </section>
+        </div>
         <section class="section">
             <div class="help" id="help">
                 <h3 class="help-title">How you can help<br>our shelter</h3>

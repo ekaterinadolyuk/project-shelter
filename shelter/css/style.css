@@ -1,7 +1,11 @@
+.header-container {
+    background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
+}
+
 .not-only {
     display: flex;
     align-items: center;
-    margin-top: 90px;
+    margin: 90px 40px 0;
 }
 
 .section-headline {
@@ -91,10 +95,60 @@
     width: 70%;
 }
 
+.our-friends-container {
+    background: #F6F6F6;
+}
+
 .our-friends {
     padding: 80px 40px 100px;
-    background: #F6F6F6;
     text-align: center;
+}
+
+.our-friends-title {
+    margin: 0 auto;
+    max-width: 400px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    text-align: center;
+}
+
+.our-friends-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.our-friends-pets {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin: 60px 50px 0;
+}
+
+.friend-pet {
+    margin-bottom: 30px;
+    background: #FAFAFA;
+    padding-bottom: 30px;
+}
+
+.friend-pet:hover {
+    transition: width 2s linear 1s;
+}
+
+.friend-pet-name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .fa-arrow-right-long {
@@ -128,9 +182,8 @@
     color: #CDCDCD;
 }
 
-.pets-button {
+.pets-button-container {
     margin-top: 60px;
-    text-decoration: none;
 }
 
 .help {

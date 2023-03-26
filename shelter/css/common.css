@@ -7,15 +7,11 @@ body {
     margin: 0 auto;
 }
 
-.header {
-    background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
-    padding: 30px 40px 0 40px;
-}
-
 .main-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 30px 40px 0 40px;
 }
 
 .logo-link {
@@ -74,58 +70,6 @@ body {
     color: #e49156;
     border-bottom: 3px solid #e49156;
 }
-
-.our-friends {
-    padding: 80px 40px 100px;
-    background: #F6F6F6;
-    text-align: center;
-}
-
-.our-friends-title {
-    margin: 0 auto;
-    max-width: 400px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 130%;
-    letter-spacing: 0.06em;
-    color: #545454;
-    text-align: center;
-}
-
-.our-friends-details {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
-}
-
-.our-friends-pets {
-    display: flex;
-    margin-top: 60px;
-}
-
-.friend-pet {
-    margin: 0 45px 30px 45px;
-    background: #FAFAFA;
-    padding-bottom: 30px;
-}
-
-.friend-pet:hover {
-    transition: width 2s linear 1s;
-}
-
-.friend-pet-name {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    letter-spacing: 0.06em;
-    color: #545454;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
 
 .secondary-button {
     font-style: normal;
