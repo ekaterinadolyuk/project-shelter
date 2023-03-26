@@ -53,10 +53,6 @@
     background: #e49156;
 }
 
-.main-image, .puppy-image {
-    display: block;
-}
-
 .about {
     display: flex;
     align-items: center;
