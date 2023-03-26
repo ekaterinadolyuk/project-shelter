@@ -1,0 +1,237 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Georgia';
+}
+
+.section {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px 0 40px;
+}
+
+.logo-link {
+    text-decoration: none;
+    color:#e0b89b;
+    transition: all 0.2s;
+}
+
+.logo-link:hover {
+    color: #FDDCC4;
+}
+
+.logo-link:active {
+    color:#e49156;
+}
+
+.header-headline {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    margin-bottom: 0;
+}
+
+.header-description {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+}
+
+.navigation {
+    display: flex;
+    font-family: 'Arial';
+    font-size: 15px;
+    margin-bottom: 0;
+    color: #CDCDCD;
+}
+
+.navigation-item {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #CDCDCD;
+    transition: all 0.2s;
+}
+
+.navigation-item:hover,
+.navigation-active-item {
+    border-bottom: 3px solid #e0b89b;
+    color:#FAFAFA;
+}
+
+.navigation-item:active {
+    color: #e49156;
+    border-bottom: 3px solid #e49156;
+}
+
+.main-image, .puppy-image {
+    display: block;
+}
+
+.our-friends-container {
+    background: #F6F6F6;
+}
+
+.our-friends-title {
+    margin: 0 auto;
+    max-width: 400px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    text-align: center;
+}
+
+.friend-pet {
+    margin-bottom: 30px;
+    background: #FAFAFA;
+    padding-bottom: 45px;
+    text-decoration: none;
+    transition: all 0.2s;
+    border-radius: 9px;
+}
+
+.our-friends-pets {
+    display: flex;
+    justify-content: space-between;
+}
+
+.friend-pet:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.friend-pet-name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+.secondary-button {
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    border: 2px solid #e0b89b;
+    padding: 15px 45px;
+    background: #FAFAFA;
+    border-radius: 100px;
+    font-family: 'Georgia';
+    transition: all 0.2s;
+}
+
+.secondary-button:hover {
+    background: #e0b89b;
+}
+
+.secondary-button:active {
+    background: #e49156;
+    border: 2px solid #e49156;
+}
+
+.footer {
+    background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px 0 40px;
+}
+
+.contact-headline, .address-headline {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.address-headline {
+    margin-bottom: 34px;
+}
+
+.email-container {
+    margin-bottom: 40px;
+}
+
+.first-address {
+    margin-bottom: 32px;
+}
+
+.email, .phone-number, .first-address-location, .second-address-location {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color:#FDDCC4;
+    text-decoration: none;
+    display: flex;
+    align-items: center
+}
+
+.email-text, .phone-text {
+    margin-left: 20px;
+}
+
+.first-address-location {
+    display: flex;
+}
+
+.second-address-location {
+    display: flex;
+}
+
+.fa-location-dot {
+    font-size: xx-large;
+    color: #FDDCC4;
+}
+
+.first-address-text, .second-address-text {
+    margin: 0 0 0 20px;
+}
+
+.email-text,
+.phone-text,
+.first-address-text,
+.second-address-text {
+    transition: all 0.2s;
+}
+
+.email-text:hover,
+.phone-text:hover,
+.first-address-text:hover,
+.second-address-text:hover {
+    color: #e0b89b;
+}
+
+.email-text:active,
+.phone-text:active,
+.first-address-text:active,
+.second-address-text:active {
+    color:#e49156;
+}

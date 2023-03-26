@@ -1,0 +1,125 @@
+.main-header {
+    padding-bottom: 30px;
+}
+
+.logo-link,
+.navigation-item {
+    color: #545454;
+}
+
+.header-headline {
+    margin-top: 32px;
+}
+
+.navigation-item:hover, .navigation-active-item {
+    cursor: pointer;
+    border-bottom: 3px solid #e0b89b;
+    color:#000;
+}
+
+.navigation-item:active {
+    color: #e49156;
+    border-bottom: 3px solid #e49156;
+}
+
+.our-friends-title {
+    padding-bottom: 45px;
+}
+
+.our-friends {
+    padding: 80px 40px 100px;
+    text-align: center;
+}
+
+.our-friends-pets {
+    flex-wrap: wrap;
+}
+
+.second-double-arrow:empty, .first-simple-arrow:empty{
+    border-radius: 50%;
+    border: 2px solid #CDCDCD;
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    color: #CDCDCD;
+    text-decoration: none;
+}
+
+.container-for-arrows {
+    padding-top: 30px;
+}
+
+.arrow-left {
+    text-decoration: none;
+    pointer-events: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.arrow-right {
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.page-button {
+    background: #e0b89b;
+    border-radius: 100px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    font-family: 'Georgia';
+    border: none;
+    padding: 18px 24px;
+    text-decoration: none;
+    transition: all 0.2s;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.page-button:hover {
+    background: #FDDCC4;
+}
+
+.page-button:active {
+    background: #e49156;
+}
+
+.fa-angle-right,
+.fa-angles-right {
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #e0b89b;
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    transition: all 0.2s;
+    color: #000;
+}
+
+.fa-angle-right:hover,
+.fa-angles-right:hover {
+    border: 2px solid #FDDCC4;
+    background-color: #FDDCC4;
+}
+
+.fa-angle-right:active,
+.fa-angles-right:active {
+    background: #e49156;
+    border: 2px solid #e49156;
+}
+
+.fa-angle-left,
+.fa-angles-left {
+    border-radius: 50%;
+    border: 2px solid #CDCDCD;
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    color: #CDCDCD;
+    cursor: default;
+}
