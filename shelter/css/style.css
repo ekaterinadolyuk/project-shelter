@@ -42,10 +42,11 @@
     border: none;
     padding: 15px 45px;
     text-decoration: none;
+    transition: all 0.2s;
 }
 
 .main-button:hover {
-    background: #F1CDB3;
+    background: #e0b89b;
 }
 
 .main-button:active {
@@ -134,10 +135,12 @@
     margin-bottom: 30px;
     background: #FAFAFA;
     padding-bottom: 30px;
+    text-decoration: none;
+    transition: all 0.2s;
 }
 
 .friend-pet:hover {
-    transition: width 2s linear 1s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .friend-pet-name {
@@ -152,20 +155,17 @@
 }
 
 .fa-arrow-right-long {
+    cursor: pointer;
     border-radius: 50%;
-    border: 2px solid #F1CDB3;
+    border: 2px solid #e0b89b;
     width: 52px;
     height: 52px;
     line-height: 52px;
+    transition: all 0.2s;
 }
 
 .fa-arrow-right-long:hover {
-    border-radius: 50%;
-    border: 2px solid #F1CDB3;
-    width: 52px;
-    height: 52px;
-    line-height: 52px;
-    background-color: #F1CDB3;
+    background-color: #e0b89b;
 }
 
 .fa-arrow-right-long:active {
@@ -262,7 +262,7 @@
 .card {
     display: flex;
     justify-content: space-evenly;
-    background: #F1CDB3;
+    background: #e0b89b;
     border-radius: 9px;
     padding: 10px 7px;
     margin: 0 0 20px 0;
@@ -271,10 +271,10 @@
 .card-link {
     text-decoration: none;
     color: #545454;
+    transition: all 0.2s;
 }
 
 .card-link:hover {
-    text-decoration: none;
     color: #FDDCC4;
 }
 

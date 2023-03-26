@@ -20,7 +20,8 @@ body {
 
 .logo-link {
     text-decoration: none;
-    color:#F1CDB3;
+    color:#e0b89b;
+    transition: all 0.2s;
 }
 
 .logo-link:hover {
@@ -62,11 +63,12 @@ body {
     margin-left: 30px;
     text-decoration: none;
     color: #CDCDCD;
+    transition: all 0.2s;
 }
 
-.navigation-item:hover, .navigation-active-item {
-    cursor: pointer;
-    border-bottom: 3px solid #F1CDB3;
+.navigation-item:hover,
+.navigation-active-item {
+    border-bottom: 3px solid #e0b89b;
     color:#FAFAFA;
 }
 
@@ -76,21 +78,23 @@ body {
 }
 
 .secondary-button {
+    cursor: pointer;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
     line-height: 130%;
     letter-spacing: 0.06em;
     color: #292929;
-    border: 2px solid #F1CDB3;
+    border: 2px solid #e0b89b;
     padding: 15px 45px;
     background: #FAFAFA;
     border-radius: 100px;
     font-family: 'Georgia';
+    transition: all 0.2s;
 }
 
 .secondary-button:hover {
-    background: #F1CDB3;
+    background: #e0b89b;
 }
 
 .secondary-button:active {
@@ -163,10 +167,23 @@ body {
     margin: 0 0 0 20px;
 }
 
-.email-text:hover, .phone-text:hover, .first-address-text:hover, .second-address-text:hover {
-    color: #F1CDB3;
+.email-text,
+.phone-text,
+.first-address-text,
+.second-address-text {
+    transition: all 0.2s;
 }
 
-.email-text:active, .phone-text:active, .first-address-text:active, .second-address-text:active {
+.email-text:hover,
+.phone-text:hover,
+.first-address-text:hover,
+.second-address-text:hover {
+    color: #e0b89b;
+}
+
+.email-text:active,
+.phone-text:active,
+.first-address-text:active,
+.second-address-text:active {
     color:#e49156;
 }

@@ -13,7 +13,7 @@
 
 .navigation-item:hover, .navigation-active-item {
     cursor: pointer;
-    border-bottom: 3px solid #F1CDB3;
+    border-bottom: 3px solid #e0b89b;
     color:#000;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .page-button:hover {
-    background: #F1CDB3;
+    background: #e0b89b;
 }
 
 .page-button:active {
