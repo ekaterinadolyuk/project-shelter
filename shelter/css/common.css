@@ -99,7 +99,7 @@ body {
 .friend-pet {
     margin-bottom: 30px;
     background: #FAFAFA;
-    padding-bottom: 30px;
+    padding-bottom: 45px;
     text-decoration: none;
     transition: all 0.2s;
     border-radius: 9px;
@@ -122,7 +122,7 @@ body {
     letter-spacing: 0.06em;
     color: #545454;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
 }
 
 .secondary-button {
