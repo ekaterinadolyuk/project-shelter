@@ -45,6 +45,10 @@
     text-decoration: none;
 }
 
+.container-for-arrows {
+    padding-top: 30px;
+}
+
 .arrow {
     text-decoration: none;
     pointer-events: none;
