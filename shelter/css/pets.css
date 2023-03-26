@@ -52,6 +52,13 @@
 .arrow {
     text-decoration: none;
     pointer-events: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.arrow-right {
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .page-button {
@@ -68,6 +75,8 @@
     padding: 18px 24px;
     text-decoration: none;
     transition: all 0.2s;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .page-button:hover {
