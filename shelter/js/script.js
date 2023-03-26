@@ -1,0 +1,1 @@
+console.log('Страница Main (60);\nСтраница Pets (40)\nEсть небольшие расхождения с Pixel Perfect.');
