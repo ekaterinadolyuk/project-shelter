@@ -2,6 +2,10 @@
     background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
 }
 
+.header-description {
+    color:#FFFFFF;
+}
+
 .not-only {
     display: flex;
     align-items: center;
@@ -92,24 +96,8 @@
     width: 70%;
 }
 
-.our-friends-container {
-    background: #F6F6F6;
-}
-
 .our-friends {
     padding: 80px 40px 100px;
-    text-align: center;
-}
-
-.our-friends-title {
-    margin: 0 auto;
-    max-width: 400px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 130%;
-    letter-spacing: 0.06em;
-    color: #545454;
     text-align: center;
 }
 
@@ -121,33 +109,8 @@
 }
 
 .our-friends-pets {
-    display: flex;
-    justify-content: space-between;
     flex-grow: 1;
     margin: 60px 50px 0;
-}
-
-.friend-pet {
-    margin-bottom: 30px;
-    background: #FAFAFA;
-    padding-bottom: 30px;
-    text-decoration: none;
-    transition: all 0.2s;
-}
-
-.friend-pet:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.friend-pet-name {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    letter-spacing: 0.06em;
-    color: #545454;
-    margin-top: 30px;
-    margin-bottom: 30px;
 }
 
 .fa-arrow-right-long {

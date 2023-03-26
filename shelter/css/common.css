@@ -42,7 +42,6 @@ body {
 }
 
 .header-description {
-    color:#FFFFFF;
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
@@ -79,6 +78,50 @@ body {
 
 .main-image, .puppy-image {
     display: block;
+}
+
+.our-friends-container {
+    background: #F6F6F6;
+}
+
+.our-friends-title {
+    margin: 0 auto;
+    max-width: 400px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    text-align: center;
+}
+
+.friend-pet {
+    margin-bottom: 30px;
+    background: #FAFAFA;
+    padding-bottom: 30px;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.our-friends-pets {
+    display: flex;
+    justify-content: space-between;
+}
+
+.friend-pet:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.friend-pet-name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .secondary-button {

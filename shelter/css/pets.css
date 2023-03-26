@@ -1,6 +1,9 @@
+.main-header {
+    padding-bottom: 30px;
+}
 
-
-.header-headline, .header-description, .navigation-item {
+.logo-link,
+.navigation-item {
     color: #545454;
 }
 
@@ -19,6 +22,15 @@
     border-bottom: 3px solid #e49156;
 }
 
+.our-friends-title {
+    padding-bottom: 45px;
+}
+
+.our-friends {
+    padding: 80px 40px 100px;
+    text-align: center;
+}
+
 .our-friends-pets {
     flex-wrap: wrap;
 }
@@ -33,25 +45,66 @@
     text-decoration: none;
 }
 
+.arrow {
+    text-decoration: none;
+    pointer-events: none;
+}
+
 .page-button {
-    background: #FDDCC4;
+    background: #e0b89b;
     border-radius: 100px;
     font-style: normal;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 20px;
     line-height: 130%;
     letter-spacing: 0.06em;
     color: #292929;
     font-family: 'Georgia';
     border: none;
-    padding: 10px 15px;
+    padding: 18px 24px;
     text-decoration: none;
+    transition: all 0.2s;
 }
 
 .page-button:hover {
-    background: #e0b89b;
+    background: #FDDCC4;
 }
 
 .page-button:active {
     background: #e49156;
+}
+
+.fa-angle-right,
+.fa-angles-right {
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #e0b89b;
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    transition: all 0.2s;
+    color: #000;
+}
+
+.fa-angle-right:hover,
+.fa-angles-right:hover {
+    border: 2px solid #FDDCC4;
+    background-color: #FDDCC4;
+}
+
+.fa-angle-right:active,
+.fa-angles-right:active {
+    background: #e49156;
+    border: 2px solid #e49156;
+}
+
+.fa-angle-left,
+.fa-angles-left {
+    border-radius: 50%;
+    border: 2px solid #CDCDCD;
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    color: #CDCDCD;
+    cursor: default;
 }
