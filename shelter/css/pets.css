@@ -1,5 +1,5 @@
 .main-header {
-    padding-bottom: 30px;
+    padding-bottom: 0.8125px;
 }
 
 .logo-link,
@@ -9,6 +9,11 @@
 
 .header-headline {
     margin-top: 32px;
+}
+
+.header-description {
+    margin-top: 0.5rem;
+    margin-bottom: 1.75rem;
 }
 
 .navigation-item:hover, .navigation-active-item {
@@ -22,13 +27,19 @@
     border-bottom: 3px solid #e49156;
 }
 
-.our-friends-title {
-    padding-bottom: 45px;
+.burger-menu {
+    color: #545454;
 }
 
 .our-friends {
-    padding: 80px 40px 100px;
+    padding: 2.6875rem 1.5625rem 100px;
     text-align: center;
+}
+
+.our-friends-title {
+    font-size: 1.5625rem;
+    padding-bottom: 2.5rem;
+    letter-spacing: normal;
 }
 
 .our-friends-pets {
@@ -122,4 +133,14 @@
     line-height: 52px;
     color: #CDCDCD;
     cursor: default;
+}
+
+@media only screen and (min-width: 768px) {
+    .our-friends-title {
+        padding-bottom: 45px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    
 }
