@@ -15,17 +15,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 40px 0 40px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
 }
 
 .logo-link {
     text-decoration: none;
     color:#e0b89b;
     transition: all 0.2s;
-}
-
-.logo-link:hover {
-    color: #FDDCC4;
 }
 
 .logo-link:active {
@@ -35,7 +32,7 @@ body {
 .header-headline {
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 2rem;
     line-height: 110%;
     letter-spacing: 0.06em;
     margin-bottom: 0;
@@ -45,35 +42,19 @@ body {
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
-    line-height: 15px;
+    font-size: 0.8125rem;
+    line-height: 0.9375rem;
     letter-spacing: 0.1em;
 }
 
 .navigation {
-    display: flex;
-    font-family: 'Arial';
-    font-size: 15px;
-    margin-bottom: 0;
-    color: #CDCDCD;
+    display: none;
 }
 
-.navigation-item {
-    margin-left: 30px;
-    text-decoration: none;
-    color: #CDCDCD;
-    transition: all 0.2s;
-}
-
-.navigation-item:hover,
-.navigation-active-item {
-    border-bottom: 3px solid #e0b89b;
-    color:#FAFAFA;
-}
-
-.navigation-item:active {
-    color: #e49156;
-    border-bottom: 3px solid #e49156;
+.burger-menu {
+    color: #e0b89b;
+    font-size: 1.8rem;
+    padding-top: 0.6rem;
 }
 
 .main-image, .puppy-image {
@@ -234,4 +215,48 @@ body {
 .first-address-text:active,
 .second-address-text:active {
     color:#e49156;
+}
+
+@media only screen and (min-width: 768px) {
+    .logo-link:hover {
+        color: #FDDCC4;
+    }
+
+    .main-header {
+        padding: 30px 40px 0 40px;
+    }
+
+    .navigation {
+        display: flex;
+        font-family: 'Arial';
+        font-size: 0.9375rem;
+        margin-bottom: 0;
+        color: #CDCDCD;
+    }
+    
+    .navigation-item {
+        margin-left: 30px;
+        text-decoration: none;
+        color: #CDCDCD;
+        transition: all 0.2s;
+    }
+    
+    .navigation-item:hover,
+    .navigation-active-item {
+        border-bottom: 3px solid #e0b89b;
+        color:#FAFAFA;
+    }
+    
+    .navigation-item:active {
+        color: #e49156;
+        border-bottom: 3px solid #e49156;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    
 }
