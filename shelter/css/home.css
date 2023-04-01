@@ -167,7 +167,7 @@
 }
 
 .help {
-    padding: 80px 40px 100px;
+    padding: 2.5rem 0.9375rem 6.25rem;
     text-align: center;
 }
 
@@ -186,21 +186,27 @@
 .help-items {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 30px;
+    justify-content: space-between;
+    margin-top: 2.5rem;
 }
 
 .help-item {
-    margin: 30px 60px;
+    min-width: 8.125rem;
+    margin-bottom: 0.5rem;
+}
+
+.help-item-img {
+    height: 3.25rem;
 }
 
 .help-item-title {
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 0.9375rem;
     line-height: 115%;
     letter-spacing: 0.06em;
     color: #545454;
+    margin-top: 1rem;
 }
 
 .in-addition {
@@ -356,6 +362,31 @@
 
     .help-title {
         font-size: 35px;
+    }
+    
+    .help {
+        padding: 5rem 2.5rem 6.25rem;
+    }
+    
+    .help-item {
+        margin: 30px 60px;
+    }
+    
+    .help-item-title {
+        font-size: 20px;
+    }
+
+    
+    .help-item-img {
+        height: auto;
+    }
+    
+    .help-item-title {
+        margin-bottom: 1.33em;
+    }
+    
+    .help-items {
+        justify-content: space-around;
     }
 }
 
