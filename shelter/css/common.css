@@ -138,31 +138,41 @@ body {
 }
 
 .footer-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 40px 40px 0 40px;
+    padding-top: 0.3125rem;
+    text-align: center;
+}
+
+.contact {
+    padding: 0 2.1875rem;
 }
 
 .contact-headline, .address-headline {
     font-style: normal;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 1.5625rem;
     line-height: 130%;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     margin-bottom: 40px;
 }
 
+.address {
+    margin-bottom: 2.5rem;
+}
+
 .address-headline {
-    margin-bottom: 34px;
+    margin-bottom: 2.4375rem;
+    margin-top: 2.5rem;
+    margin-left: 1.625rem;
+    margin-right: 1.6875rem;
 }
 
 .email-container {
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 .first-address {
-    margin-bottom: 32px;
+    margin-bottom: 2.5rem;
 }
 
 .email, .phone-number, .first-address-location, .second-address-location {
@@ -174,7 +184,7 @@ body {
     color:#FDDCC4;
     text-decoration: none;
     display: flex;
-    align-items: center
+    align-items: center;
 }
 
 .email-text, .phone-text {
@@ -192,6 +202,7 @@ body {
 .fa-location-dot {
     font-size: xx-large;
     color: #FDDCC4;
+    margin-left: 0.5rem;
 }
 
 .first-address-text, .second-address-text {
@@ -211,6 +222,11 @@ body {
 .first-address-text:active,
 .second-address-text:active {
     color:#e49156;
+}
+
+.puppy-image {
+    width: 81%;
+    margin-left: 1.6875rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -240,6 +256,24 @@ body {
 
     .burger-menu {
         display: none;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 40px 0 40px;
+    }
+
+    .contact-headline, .address-headline {
+        font-size: 35px;
+    }
+    
+    .email, .phone-number, .first-address-location, .second-address-location {
+        font-size: 1.25rem;
+    }
+    
+    .puppy-image {
+        width: 100%;
     }
 
 }
