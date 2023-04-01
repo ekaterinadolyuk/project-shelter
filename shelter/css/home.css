@@ -64,24 +64,14 @@
 }
 
 .about {
-    display: flex;
-    align-items: center;
-    margin: 80px 40px;
-}
-
-.about-image-container {
+    margin-top: 2.625rem;
     text-align: center;
-    width: 50%;
-}
-
-.about-description {
-    width: 50%;
 }
 
 .about-heading {
     font-style: normal;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 1.5625rem;
     line-height: 130%;
     color: #545454;
     letter-spacing: 0.06em;
@@ -96,10 +86,29 @@
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 160%;
     color: #4C4C4C;
-    width: 70%;
+    margin-left: 1.5625rem;
+    margin-right: 1.5625rem;
+    text-align: justify;
+}
+
+.about-text:first-of-type {
+    padding-bottom: 1.375rem;
+    margin-bottom: 0;
+}
+
+.second-text {
+    margin-top: 0;
+}
+
+.about-image {
+    width: 100%;
+}
+
+.about-image-container {
+    margin: 2.625rem 1.875rem 2.65rem;
 }
 
 .our-friends {
@@ -288,11 +297,38 @@
     .main-image, .puppy-image {
         display: block;
     }
-    
+
     .about {
         display: flex;
         align-items: center;
         margin: 80px 40px;
+    }
+
+    .about-image-container {
+        text-align: center;
+        width: 50%;
+    }
+    
+    .about-description {
+        width: 50%;
+    }
+    
+    .about-heading {
+        font-size: 35px;
+    }
+    
+    .about-heading:first-child {
+        margin-bottom: 0;
+    }
+    
+    .about-text {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+        color: #4C4C4C;
+        width: 70%;
     }
 }
 
