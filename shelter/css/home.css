@@ -167,7 +167,7 @@
 }
 
 .help {
-    padding: 2.5rem 0.9375rem 6.25rem;
+    padding: 2.5rem 0.9375rem 0.75rem;
     text-align: center;
 }
 
@@ -211,38 +211,42 @@
 
 .in-addition {
     background: #F6F6F6;
-    padding-top: 80px;
-    padding-bottom: 100px;
+    padding-top: 2.5625rem;
+    padding-bottom: 0.5625rem;
 }
 
 .donation-container {
     margin: 0 auto;
     max-width: 915px;
     display: flex;
+    flex-direction: column-reverse;
 }
 
 .donation-dog {
     padding-right: 30px;
 }
 
+.donation-information {
+    text-align: center;
+}
+
 .donation-title {
     font-style: normal;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 1.5625rem;
     line-height: 130%;
     letter-spacing: 0.06em;
     color: #545454;
-    margin: 0 0 20px 0;
+    margin: 0 0 1.5rem 0;
 }
 
 .donation-subtitle {
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 110%;
-    letter-spacing: 0.06em;
     color: #545454;
-    margin: 0 0 20px 0;
+    margin: 0 1.4375rem 1.5625rem 1.5rem;
 }
 
 .card {
@@ -250,8 +254,9 @@
     justify-content: space-evenly;
     background: #e0b89b;
     border-radius: 9px;
-    padding: 10px 7px;
-    margin: 0 0 20px 0;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    margin: 0 1.25rem 1.25rem 1.25rem;
 }
 
 .card-link {
@@ -268,7 +273,7 @@
 .card-number {
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 0.9375rem;
     line-height: 115%;
     letter-spacing: 0.06em;
     margin: 0;
@@ -281,6 +286,14 @@
     font-size: 12px;
     line-height: 18px;
     color: #B2B2B2;
+    text-align: justify;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+
+.donation-dog-image {
+    width: 90%;
+    margin: 1.75rem 1.625rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -387,6 +400,27 @@
     
     .help-items {
         justify-content: space-around;
+    }
+
+    .in-addition {
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+
+    .donation-title {
+        font-size: 35px;
+    }
+
+    .donation-subtitle {
+        margin: 0 0 20px 0;
+    }
+
+    .card-number {
+        font-size: 20px;
+    }
+
+    .donation-description {
+        text-align: center;
     }
 }
 
