@@ -112,20 +112,28 @@
 }
 
 .our-friends {
-    padding: 80px 40px 100px;
     text-align: center;
+    padding-bottom: 3.5625rem;
 }
 
-.our-friends-details {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
+.our-friends-title {
+    font-size: 1.5625rem;
+    padding-top: 2.625rem;
 }
 
-.our-friends-pets {
-    flex-grow: 1;
-    margin: 60px 50px 0;
+.first-pet {
+    text-align: center;
+    margin-left: 1.5625rem;
+    margin-top: 2.625rem;
+    margin-bottom: 1.25rem;
+}
+
+.second-pet {
+    display: none;
+}
+
+.third-pet {
+    display: none;
 }
 
 .fa-arrow-right-long {
@@ -138,26 +146,24 @@
     transition: all 0.2s;
 }
 
-.fa-arrow-right-long:hover {
-    background-color: #e0b89b;
-}
-
-.fa-arrow-right-long:active {
+.fa-arrow-right-long:active, .fa-arrow-left-long:active {
     background: #e49156;
     border: 2px solid #e49156;
 }
 
-.fa-arrow-left-long:empty{
+.fa-arrow-left-long {
+    cursor: pointer;
     border-radius: 50%;
-    border: 2px solid #CDCDCD;
+    border: 2px solid #e0b89b;
     width: 52px;
     height: 52px;
     line-height: 52px;
-    color: #CDCDCD;
+    transition: all 0.2s;
+    margin-right: 5rem;
 }
 
 .pets-button-container {
-    margin-top: 60px;
+    margin-top: 3.625rem;
 }
 
 .help {
@@ -170,7 +176,7 @@
     max-width: 400px;
     font-style: normal;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 1.5625rem;
     line-height: 130%;
     letter-spacing: 0.06em;
     color: #545454;
@@ -248,10 +254,6 @@
     transition: all 0.2s;
 }
 
-.card-link:hover {
-    color: #FDDCC4;
-}
-
 .card-link:active {
     text-decoration: none;
     color: #e49156;
@@ -290,10 +292,6 @@
         font-size: 15px;
     }
 
-    .main-button:hover {
-        background: #e0b89b;
-    }
-
     .main-image, .puppy-image {
         display: block;
     }
@@ -330,8 +328,52 @@
         color: #4C4C4C;
         width: 70%;
     }
+
+    .our-friends {
+        padding: 80px 40px 100px;
+    }
+    
+    .our-friends-details {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .our-friends-pets {
+        flex-grow: 1;
+        margin: 60px 50px 0;
+    }
+    
+    .fa-arrow-left-long:empty{
+        border-radius: 50%;
+        border: 2px solid #CDCDCD;
+        width: 52px;
+        height: 52px;
+        line-height: 52px;
+        color: #CDCDCD;
+    }
+
+    .help-title {
+        font-size: 35px;
+    }
 }
 
 @media only screen and (min-width: 1280px) {
     
 }
+
+@media (hover: hover) {
+
+    .main-button:hover {
+        background: #e0b89b;
+    }
+
+    .fa-arrow-right-long:hover {
+        background-color: #e0b89b;
+    }
+
+    .card-link:hover {
+        color: #FDDCC4;
+    }
+  }

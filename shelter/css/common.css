@@ -55,6 +55,11 @@ body {
     display: none;
 }
 
+.navigation-active-item {
+    border-bottom: 3px solid #e0b89b;
+    color:#FAFAFA;
+}
+
 .burger-menu {
     color: #e0b89b;
     font-size: 1.8rem;
@@ -95,10 +100,6 @@ body {
     justify-content: space-between;
 }
 
-.friend-pet:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
 .friend-pet-name {
     font-style: normal;
     font-weight: 400;
@@ -106,7 +107,7 @@ body {
     line-height: 23px;
     letter-spacing: 0.06em;
     color: #545454;
-    margin-top: 30px;
+    margin-top: 1.5rem;
     margin-bottom: 45px;
 }
 
@@ -126,9 +127,6 @@ body {
     transition: all 0.2s;
 }
 
-.secondary-button:hover {
-    background: #e0b89b;
-}
 
 .secondary-button:active {
     background: #e49156;
@@ -207,12 +205,6 @@ body {
     transition: all 0.2s;
 }
 
-.email-text:hover,
-.phone-text:hover,
-.first-address-text:hover,
-.second-address-text:hover {
-    color: #e0b89b;
-}
 
 .email-text:active,
 .phone-text:active,
@@ -222,10 +214,6 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-    .logo-link:hover {
-        color: #FDDCC4;
-    }
-
     .main-header {
         padding: 30px 40px 0 40px;
     }
@@ -245,12 +233,6 @@ body {
         transition: all 0.2s;
     }
     
-    .navigation-item:hover,
-    .navigation-active-item {
-        border-bottom: 3px solid #e0b89b;
-        color:#FAFAFA;
-    }
-    
     .navigation-item:active {
         color: #e49156;
         border-bottom: 3px solid #e49156;
@@ -259,8 +241,35 @@ body {
     .burger-menu {
         display: none;
     }
+
 }
 
 @media only screen and (min-width: 1280px) {
     
 }
+
+@media (hover: hover) {
+    .logo-link:hover {
+        color: #FDDCC4;
+    }
+    
+    .navigation-item:hover {
+        border-bottom: 3px solid #e0b89b;
+        color:#FAFAFA;
+    }
+    
+    .friend-pet:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .secondary-button:hover {
+        background: #e0b89b;
+    }
+
+    .email-text:hover,
+    .phone-text:hover,
+    .first-address-text:hover,
+    .second-address-text:hover {
+        color: #e0b89b;
+    }
+  }
