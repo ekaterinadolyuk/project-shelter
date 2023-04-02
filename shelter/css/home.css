@@ -205,7 +205,7 @@
 .in-addition {
     background: #F6F6F6;
     padding-top: 2.5625rem;
-    padding-bottom: 0.5625rem;
+    padding-bottom: 0.375rem;
 }
 
 .donation-container {
@@ -213,10 +213,6 @@
     max-width: 915px;
     display: flex;
     flex-direction: column-reverse;
-}
-
-.donation-dog {
-    padding-right: 30px;
 }
 
 .donation-information {
@@ -488,7 +484,6 @@
     .donation-dog {
         text-align: center;
         margin-top: 1.3125rem;
-        padding-right: 0;
     }
 
     .donation-dog-image {
@@ -588,6 +583,10 @@
 
     .donation-description {
         text-align: center;
+    }
+
+    .donation-dog {
+        padding-right: 30px;
     }
 
 }

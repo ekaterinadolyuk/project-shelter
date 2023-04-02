@@ -203,7 +203,7 @@ body {
 .second-address-location {
     display: flex;
     letter-spacing: 0.06em;
-    text-align: center;
+    text-align: left;
 }
 
 .fa-location-dot {
@@ -323,11 +323,6 @@ body {
         margin-left: 0.4375rem;
     }
 
-    .first-address-location,
-    .second-address-location {
-        text-align: left;
-    }
-
     .first-address-text,
     .second-address-text {
         margin-right: 0;
@@ -354,6 +349,11 @@ body {
         text-decoration: none;
         color: #CDCDCD;
         transition: all 0.2s;
+    }
+
+    .first-address-location,
+    .second-address-location {
+        text-align: center;
     }
 }
 
