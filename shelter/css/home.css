@@ -496,7 +496,26 @@
     .not-only {
         display: flex;
         align-items: center;
-        margin: 90px 40px 0;
+        margin: 60px 40px 0;
+        text-align: left;
+    }
+
+    .not-only .main-button {
+        margin-left: 0;
+    }
+
+    .information-container {
+        margin: -90px 0 0 0;
+    }
+
+    .image-container {
+        margin: 0;
+    }
+
+    .main-image {
+        width: auto;
+        margin: 0;
+        padding: 0;
     }
 
     .section-headline {
@@ -505,6 +524,7 @@
 
     .section-description {
         font-size: 0.9375rem;
+        margin-right: 2rem;
     }
 
     .main-image {
