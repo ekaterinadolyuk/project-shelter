@@ -494,6 +494,7 @@
     .donation-dog-image {
         width: calc(100% - 132px - 132px);
     }
+
 }
 
 @media only screen and (min-width: 1280px) {
