@@ -11,12 +11,7 @@
     margin-top: 32px;
 }
 
-.header-description {
-    margin-top: 0.5rem;
-    margin-bottom: 1.75rem;
-}
-
-.navigation-item:hover, .navigation-active-item {
+.navigation-active-item {
     cursor: pointer;
     border-bottom: 3px solid #e0b89b;
     color:#000;
@@ -32,18 +27,30 @@
 }
 
 .our-friends {
-    padding: 2.6875rem 1.5625rem 100px;
+    padding: 2.6875rem 0.625rem 2.625rem;
     text-align: center;
 }
 
 .our-friends-title {
     font-size: 1.5625rem;
     padding-bottom: 2.5rem;
-    letter-spacing: normal;
+}
+
+.our-friends-details {
+    padding-top: 0.25rem;
 }
 
 .our-friends-pets {
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fourth-friend-pet,
+.fifth-friend-pet,
+.sixth-friend-pet,
+.seventh-friend-pet,
+.eighth-friend-pet {
+    display: none;
 }
 
 .second-double-arrow:empty, .first-simple-arrow:empty{
@@ -57,21 +64,19 @@
 }
 
 .container-for-arrows {
-    padding-top: 30px;
+    padding-top: 0.9375rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .arrow-left {
     text-decoration: none;
     pointer-events: none;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .arrow-right {
     cursor: pointer;
     text-decoration: none;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .page-button {
@@ -85,15 +90,9 @@
     color: #292929;
     font-family: 'Georgia';
     border: none;
-    padding: 18px 24px;
+    padding: 0.75rem 1.3125rem;
     text-decoration: none;
     transition: all 0.2s;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.page-button:hover {
-    background: #FDDCC4;
 }
 
 .page-button:active {
@@ -110,12 +109,6 @@
     line-height: 52px;
     transition: all 0.2s;
     color: #000;
-}
-
-.fa-angle-right:hover,
-.fa-angles-right:hover {
-    border: 2px solid #FDDCC4;
-    background-color: #FDDCC4;
 }
 
 .fa-angle-right:active,
@@ -139,8 +132,50 @@
     .our-friends-title {
         padding-bottom: 45px;
     }
+
+    .fourth-friend-pet,
+    .fifth-friend-pet,
+    .sixth-friend-pet,
+    .seventh-friend-pet,
+    .eighth-friend-pet {
+        display: block;
+    }
+
+    .arrow-left {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .arrow-right {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .page-button {
+        padding: 18px 24px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
 
 @media only screen and (min-width: 1280px) {
     
+}
+
+@media (hover: hover) {
+    .navigation-item:hover {
+        cursor: pointer;
+        border-bottom: 3px solid #e0b89b;
+        color:#000;
+    }
+
+    .page-button:hover {
+        background: #FDDCC4;
+    }
+
+    .fa-angle-right:hover,
+    .fa-angles-right:hover {
+        border: 2px solid #FDDCC4;
+        background-color: #FDDCC4;
+    }
 }

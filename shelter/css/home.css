@@ -1,5 +1,5 @@
 .header-container {
-    background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
+    background: url(../img/background/noise_transparent@2x.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
 }
 
 .header-description {
@@ -8,7 +8,7 @@
 
 .not-only {
     text-align: center;
-    margin-top: 2.7rem;
+    margin-top: 2rem;
     margin-left: 0.625rem;
     margin-right: 0.625rem;
 }
@@ -19,7 +19,8 @@
     font-size: 1.5625rem;
     line-height: 130%;
     color:#FFFFFF;
-    margin-bottom: 0;
+    margin: 0 1.5rem;
+    letter-spacing: 0.06em;
 }
 
 .section-description {
@@ -60,7 +61,7 @@
 .main-image {
     display: block;
     width: 100%;
-    padding-left: 1.875rem;
+    padding-left: 2.5rem;
 }
 
 .about {
@@ -108,7 +109,7 @@
 }
 
 .about-image-container {
-    margin: 2.625rem 1.875rem 2.65rem;
+    margin: 2.625rem 1.875rem 2.25rem;
 }
 
 .our-friends {
