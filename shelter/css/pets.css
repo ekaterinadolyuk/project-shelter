@@ -129,16 +129,34 @@
 }
 
 @media only screen and (min-width: 768px) {
+    .our-friends {
+        padding: 82px 0.625rem 77px;
+        text-align: center;
+    }
+    
     .our-friends-title {
-        padding-bottom: 45px;
+        padding-bottom: 25px;
+        font-size: 35px;
+    }
+
+    .our-friends-pets {
+        margin: 0 84px;
+        justify-content: space-between;
+    }
+
+    .friend-pet-name {
+        margin-top: 25px;
     }
 
     .fourth-friend-pet,
     .fifth-friend-pet,
-    .sixth-friend-pet,
-    .seventh-friend-pet,
-    .eighth-friend-pet {
+    .sixth-friend-pet {
         display: block;
+    }
+
+    .container-for-arrows {
+        justify-content: center;
+        padding-top: 10px;
     }
 
     .arrow-left {
@@ -152,14 +170,28 @@
     }
 
     .page-button {
-        padding: 18px 24px;
         margin-left: 10px;
         margin-right: 10px;
     }
 }
 
 @media only screen and (min-width: 1280px) {
-    
+    .seventh-friend-pet,
+    .eighth-friend-pet {
+        display: block;
+    }
+
+    .our-friends {
+        padding-bottom: 2.625rem;
+    }
+
+    .our-friends-title {
+        padding-bottom: 45px;
+    }
+
+    .page-button {
+        padding: 18px 24px;
+    }
 }
 
 @media (hover: hover) {
