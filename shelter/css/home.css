@@ -122,8 +122,7 @@
     padding-top: 2.625rem;
 }
 
-.first-pet {
-    text-align: center;
+.friend-pet {
     margin-left: 1.5625rem;
     margin-top: 2.625rem;
     margin-bottom: 1.25rem;
@@ -137,7 +136,7 @@
     display: none;
 }
 
-.fa-arrow-right-long {
+.friend-pet-arrow {
     cursor: pointer;
     border-radius: 50%;
     border: 2px solid #e0b89b;
@@ -153,13 +152,6 @@
 }
 
 .fa-arrow-left-long {
-    cursor: pointer;
-    border-radius: 50%;
-    border: 2px solid #e0b89b;
-    width: 52px;
-    height: 52px;
-    line-height: 52px;
-    transition: all 0.2s;
     margin-right: 5rem;
 }
 
@@ -322,7 +314,7 @@
         margin-top: 2.5rem;
     }
 
-    .main-button {
+    .not-only .main-button {
         margin-left: -0.375rem;
     }
 
@@ -376,29 +368,51 @@
         margin: 4.875rem 14.625rem 6.25rem;
     }
 
+    .our-friends-container {
+        padding-bottom: 7.25rem;
+    }
+
     .our-friends {
-        padding: 80px 40px 100px;
+        padding: 0;
+    }
+
+    .our-friends-title {
+        font-size: 1.5625rem;
+        padding-top: 4.825rem;
+        font-size: 35px;
     }
     
     .our-friends-details {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
         text-align: center;
+        margin: 60px 30px 0 30px;
+    }
+
+    .fa-arrow-left-long {
+        margin-right: 0;
     }
 
     .our-friends-pets {
         flex-grow: 1;
-        margin: 60px 50px 0;
+        margin: 0;
+    }
+
+    .friend-pet {
+        margin: 0 0.75rem;
+    }
+
+    .second-pet {
+        display: block;
     }
     
-    .fa-arrow-left-long:empty{
-        border-radius: 50%;
-        border: 2px solid #CDCDCD;
-        width: 52px;
-        height: 52px;
-        line-height: 52px;
-        color: #CDCDCD;
+    .fa-arrow-left-long {
+        order: -1;
+    }
+
+    .pets-button-container {
+        margin-bottom: 4.25rem;
     }
 
     .help-title {
@@ -497,6 +511,23 @@
     .about-text {
         width: 70%;
     }
+
+    .our-friends {
+        padding: 80px 40px 100px;
+    }
+
+    .our-friends-details {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .our-friends-pets {
+        flex-grow: 1;
+        margin: 60px 50px 0;
+    }
+    
 }
 
 @media (hover: hover) {

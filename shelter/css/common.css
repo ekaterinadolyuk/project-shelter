@@ -90,12 +90,13 @@ body {
 }
 
 .friend-pet {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
     background: #FAFAFA;
     padding-bottom: 45px;
     text-decoration: none;
     transition: all 0.2s;
     border-radius: 9px;
+    text-align: center;
 }
 
 .friend-pet:active {
