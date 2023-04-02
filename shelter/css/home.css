@@ -285,7 +285,7 @@
 }
 
 .donation-dog-image {
-    width: 90%;
+    width: calc(100% - 3.25rem);
     margin: 1.75rem 1.625rem;
 }
 
@@ -447,16 +447,33 @@
     }
 
     .in-addition {
-        padding-top: 80px;
-        padding-bottom: 100px;
+        padding-top: 5rem;
+        padding-bottom: 4.1875rem;
+    }
+
+    .donation-information {
+        text-align: start;
+        margin-left: 194px;
+        margin-right: 194px;
     }
 
     .donation-title {
         font-size: 35px;
+        margin-bottom: 19px;
     }
 
     .donation-subtitle {
         margin: 0 0 20px 0;
+        letter-spacing: 0.06em;
+    }
+
+    .card-link {
+        margin-left: -17px;
+    }
+
+    .card {
+        margin: 0 1.875rem 1.25rem 0;
+        justify-content: space-around;
     }
 
     .card-number {
@@ -464,7 +481,18 @@
     }
 
     .donation-description {
+        text-align: start;
+        margin-left: 0;
+    }
+
+    .donation-dog {
         text-align: center;
+        margin-top: 1.3125rem;
+        padding-right: 0;
+    }
+
+    .donation-dog-image {
+        width: calc(100% - 132px - 132px);
     }
 }
 
@@ -548,6 +576,19 @@
         margin-top: 1.33em;
         margin-bottom: 1.33em;
     }
+    
+    .in-addition {
+        padding-bottom: 100px;
+    }
+
+    .donation-subtitle {
+        margin: 0 0 20px 0;
+    }
+
+    .donation-description {
+        text-align: center;
+    }
+
 }
 
 @media (hover: hover) {
