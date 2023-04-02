@@ -594,15 +594,16 @@
     .help {
         padding-left: 2.5rem;
         padding-right: 2.5rem;
-        padding-bottom: 6.25rem;
+        padding-bottom: 74px;
     }
 
     .help-item {
-        margin: 30px 60px;
+        margin: 0px 16px;
+        margin-bottom: 25px; 
     }
     
     .help-items {
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
     
     .help-item-title {
