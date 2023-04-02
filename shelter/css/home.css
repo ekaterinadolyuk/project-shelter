@@ -533,17 +533,27 @@
 
     .about {
         display: flex;
-        align-items: center;
         margin: 80px 40px;
+        flex-direction: row-reverse;
+        margin-bottom: 88px;
     }
 
     .about-image-container {
         text-align: center;
+        margin: 0;
         width: 50%;
     }
     
+    .about-image {
+        width: 50%;
+        margin-left: 53px;
+        margin-top: 3px;
+    }
+
     .about-description {
         width: 50%;
+        margin: 0;
+        margin-right: 11px;
     }
     
     .about-heading {
@@ -552,6 +562,7 @@
     
     .about-heading:first-child {
         margin-bottom: 0;
+        margin-top: 13px;
     }
     
     .about-text {
