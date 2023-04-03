@@ -352,6 +352,56 @@ body {
     .second-address-location {
         text-align: center;
     }
+
+    .footer-container {
+        margin: 0 38px 0 41px;
+        padding: 0;
+        flex-wrap: nowrap;
+    }
+
+    .contact {
+        margin-top: 57px;
+        width: 33%;
+    }
+
+    .contact-headline {
+        margin: 0 90px 39px 0;
+    }
+
+    .address {
+        margin-top: 57px;
+        padding-left: 36px;
+        width: 33%;
+    }
+
+    .address-headline {
+        margin: 0 90px 39px 0;
+    }
+
+    .first-address,
+    .second-address {
+        margin-left: 0;
+    }
+
+    .first-address-text,
+    .second-address-text {
+        text-align: left;
+        margin-left: 1rem;
+    }
+
+    .fa-location-dot {
+        margin-left: 0;
+    }
+
+    .puppy-container {
+        width: 33%;
+    }
+
+    .puppy-image {
+        width: auto;
+        margin-top: 40px;
+        margin-right: 0;
+    }
 }
 
 @media (hover: hover) {
