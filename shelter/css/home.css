@@ -612,7 +612,15 @@
     }
     
     .in-addition {
-        padding-bottom: 100px;
+        padding-bottom: 88px;
+    }
+
+    .donation-container {
+        flex-direction: row;
+    }
+
+    .donation-information {
+        margin: 0 0 0 31px;
     }
 
     .donation-subtitle {
@@ -620,11 +628,17 @@
     }
 
     .donation-description {
-        text-align: center;
+        text-align: left;
     }
 
     .donation-dog {
-        padding-right: 30px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .donation-dog-image {
+        width: auto;
+        margin: 10px 0 0 0;
     }
 
 }
