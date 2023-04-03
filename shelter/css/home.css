@@ -535,7 +535,7 @@
         display: flex;
         margin: 80px 40px;
         flex-direction: row-reverse;
-        margin-bottom: 88px;
+        margin-bottom: 97px;
     }
 
     .about-image-container {
@@ -566,7 +566,7 @@
     }
     
     .about-text {
-        width: 70%;
+        max-width: 27rem;
     }
 
     .our-friends {
@@ -594,16 +594,18 @@
     .help {
         padding-left: 2.5rem;
         padding-right: 2.5rem;
-        padding-bottom: 74px;
+        padding-bottom: 66px;
     }
 
     .help-item {
-        margin: 0px 16px;
-        margin-bottom: 25px; 
+        min-width: auto;
     }
     
     .help-items {
-        justify-content: space-evenly;
+        margin: 3.625rem 85px 0 85px;
+        row-gap: 20px;
+        column-gap: 120px;
+        justify-content: center;
     }
     
     .help-item-title {
