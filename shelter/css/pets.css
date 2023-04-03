@@ -182,15 +182,20 @@
     }
 
     .our-friends {
-        padding-bottom: 2.625rem;
+        padding-bottom: 99px;
     }
 
     .our-friends-title {
         padding-bottom: 45px;
     }
 
+    .our-friends-pets {
+        margin: 9px 8px 20px 7px;
+        justify-content: space-around;
+    }
+
     .page-button {
-        padding: 18px 24px;
+        padding: 14px 22px;
     }
 }
 
