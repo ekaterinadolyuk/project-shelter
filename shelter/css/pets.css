@@ -1,5 +1,5 @@
 .main-header {
-    padding-bottom: 30px;
+    padding-bottom: 0.8125px;
 }
 
 .logo-link,
@@ -11,7 +11,7 @@
     margin-top: 32px;
 }
 
-.navigation-item:hover, .navigation-active-item {
+.navigation-active-item {
     cursor: pointer;
     border-bottom: 3px solid #e0b89b;
     color:#000;
@@ -22,17 +22,35 @@
     border-bottom: 3px solid #e49156;
 }
 
-.our-friends-title {
-    padding-bottom: 45px;
+.burger-menu {
+    color: #545454;
 }
 
 .our-friends {
-    padding: 80px 40px 100px;
+    padding: 2.6875rem 0.625rem 2.625rem;
     text-align: center;
+}
+
+.our-friends-title {
+    font-size: 1.5625rem;
+    padding-bottom: 2.5rem;
+}
+
+.our-friends-details {
+    padding-top: 0.25rem;
 }
 
 .our-friends-pets {
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fourth-friend-pet,
+.fifth-friend-pet,
+.sixth-friend-pet,
+.seventh-friend-pet,
+.eighth-friend-pet {
+    display: none;
 }
 
 .second-double-arrow:empty, .first-simple-arrow:empty{
@@ -46,21 +64,19 @@
 }
 
 .container-for-arrows {
-    padding-top: 30px;
+    padding-top: 0.9375rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .arrow-left {
     text-decoration: none;
     pointer-events: none;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .arrow-right {
     cursor: pointer;
     text-decoration: none;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .page-button {
@@ -74,15 +90,9 @@
     color: #292929;
     font-family: 'Georgia';
     border: none;
-    padding: 18px 24px;
+    padding: 0.75rem 1.3125rem;
     text-decoration: none;
     transition: all 0.2s;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.page-button:hover {
-    background: #FDDCC4;
 }
 
 .page-button:active {
@@ -101,12 +111,6 @@
     color: #000;
 }
 
-.fa-angle-right:hover,
-.fa-angles-right:hover {
-    border: 2px solid #FDDCC4;
-    background-color: #FDDCC4;
-}
-
 .fa-angle-right:active,
 .fa-angles-right:active {
     background: #e49156;
@@ -122,4 +126,93 @@
     line-height: 52px;
     color: #CDCDCD;
     cursor: default;
+}
+
+@media only screen and (min-width: 768px) {
+    .our-friends {
+        padding: 82px 0.625rem 77px;
+        text-align: center;
+    }
+    
+    .our-friends-title {
+        padding-bottom: 25px;
+        font-size: 35px;
+    }
+
+    .our-friends-pets {
+        margin: 0 84px;
+        justify-content: space-between;
+    }
+
+    .friend-pet-name {
+        margin-top: 25px;
+    }
+
+    .fourth-friend-pet,
+    .fifth-friend-pet,
+    .sixth-friend-pet {
+        display: block;
+    }
+
+    .container-for-arrows {
+        justify-content: center;
+        padding-top: 10px;
+    }
+
+    .arrow-left {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .arrow-right {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .page-button {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .seventh-friend-pet,
+    .eighth-friend-pet {
+        display: block;
+    }
+
+    .our-friends {
+        padding-bottom: 99px;
+    }
+
+    .our-friends-title {
+        padding-bottom: 45px;
+    }
+
+    .our-friends-pets {
+        margin: 9px 8px 20px 7px;
+        justify-content: space-around;
+    }
+
+    .page-button {
+        padding: 14px 22px;
+    }
+}
+
+@media (hover: hover) {
+    .navigation-item:hover {
+        cursor: pointer;
+        border-bottom: 3px solid #e0b89b;
+        color:#000;
+    }
+
+    .page-button:hover {
+        background: #FDDCC4;
+    }
+
+    .fa-angle-right:hover,
+    .fa-angles-right:hover {
+        border: 2px solid #FDDCC4;
+        background-color: #FDDCC4;
+    }
 }
