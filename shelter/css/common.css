@@ -21,6 +21,7 @@ body {
     align-items: center;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
+    position: relative;
 }
 
 .logo-link {
@@ -64,9 +65,80 @@ body {
 }
 
 .burger-menu {
-    color: #e0b89b;
     font-size: 1.8rem;
     padding-top: 0.6rem;
+}
+
+.burger-icon {
+    color: #e0b89b;
+    transition: transform 0.2s ease-in;
+}
+
+.burger-wrapper {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(41, 41, 41, 0.6);
+}
+
+.burger-content {
+    height: 100%;
+    max-width: 100vw;
+    position: absolute;
+    right: 0;
+    background-color: #292929;
+    animation-name: burger-content-animation;
+    animation-duration: 0.2s;
+    animation-direction: reverse;
+    animation-fill-mode: both;
+}
+
+@keyframes burger-content-animation {
+    from {width: 0;}
+    to {width: 20rem;}
+}
+
+.visible-burger {
+    overflow: hidden;
+}
+
+.visible-burger .burger-icon {
+    z-index: 1;
+    position: relative;
+    transform: rotate(90deg);
+}
+
+.visible-burger .burger-content {
+    animation-name: burger-content-animation;
+    animation-duration: 0.2s;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    overflow-y: auto;
+}
+
+.burger-items {
+    margin-left: 39px;
+    margin-top: 256px;
+    font-size: 35px;
+    margin-right: 38px;
+    text-align: center;
+}
+
+.burger-item {
+    color: #CDCDCD;
+    padding-bottom: 5px;
+    margin-bottom: 49px;
+    display: block;
+    text-decoration: none;
+    font-size: 32px;
+    font-family: Arial;
+}
+
+.burger-active-item {
+    color: #FAFAFA;
 }
 
 .main-image, .puppy-image {
