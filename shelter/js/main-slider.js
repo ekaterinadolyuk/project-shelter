@@ -1,16 +1,20 @@
 window.addEventListener('load', newSection);
 
+let availablePets = [...window.petsData];
+
 function newSection() {
     let arrayOfPets = [];
     for(let i=0; i<=2; i++) {
-        /*to do: fill this array*/
-        let randomIndex = Math.floor(Math.random() * window.petsData.length);
+        let randomIndex = Math.floor(Math.random() * availablePets.length);
 
         // get random item
-        let item = window.petsData[randomIndex];
+        let item = availablePets[randomIndex];
         // add element to array
         arrayOfPets.push(item);
+        availablePets.splice(randomIndex, 1);
     }
+
+    availablePets = [...window.petsData];
 
     for(let i=0; i<3; i++) {
         let pet = arrayOfPets[i];
