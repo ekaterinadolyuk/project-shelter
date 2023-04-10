@@ -22,8 +22,23 @@
     border-bottom: 3px solid #e49156;
 }
 
-.burger-menu {
+.burger-icon {
     color: #545454;
+}
+
+.burger-content {
+    background-color: rgb(63, 58, 58);
+}
+
+.burger-item {
+    color: #CDCDCD;
+}
+
+.burger-active-item {
+    color: #FAFAFA;
+    border-bottom: 3px solid #e0b89b;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .our-friends {

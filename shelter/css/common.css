@@ -21,6 +21,7 @@ body {
     align-items: center;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
+    position: relative;
 }
 
 .logo-link {
@@ -64,9 +65,80 @@ body {
 }
 
 .burger-menu {
-    color: #e0b89b;
     font-size: 1.8rem;
     padding-top: 0.6rem;
+}
+
+.burger-icon {
+    color: #e0b89b;
+    transition: transform 0.2s ease-in;
+}
+
+.burger-wrapper {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(41, 41, 41, 0.6);
+}
+
+.burger-content {
+    height: 100%;
+    max-width: 100vw;
+    position: absolute;
+    right: 0;
+    background-color: #292929;
+    animation-name: burger-content-animation;
+    animation-duration: 0.2s;
+    animation-direction: reverse;
+    animation-fill-mode: both;
+}
+
+@keyframes burger-content-animation {
+    from {width: 0;}
+    to {width: 20rem;}
+}
+
+.visible-burger {
+    overflow: hidden;
+}
+
+.visible-burger .burger-icon {
+    z-index: 1;
+    position: relative;
+    transform: rotate(90deg);
+}
+
+.visible-burger .burger-content {
+    animation-name: burger-content-animation;
+    animation-duration: 0.2s;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    overflow-y: auto;
+}
+
+.burger-items {
+    margin-left: 39px;
+    margin-top: 256px;
+    font-size: 35px;
+    margin-right: 38px;
+    text-align: center;
+}
+
+.burger-item {
+    color: #CDCDCD;
+    padding-bottom: 5px;
+    margin-bottom: 49px;
+    display: block;
+    text-decoration: none;
+    font-size: 32px;
+    font-family: Arial;
+}
+
+.burger-active-item {
+    color: #FAFAFA;
 }
 
 .main-image, .puppy-image {
@@ -105,7 +177,7 @@ body {
 
 .our-friends-pets {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .friend-pet-name {
@@ -236,6 +308,115 @@ body {
     margin-left: 1.6875rem;
 }
 
+.visible-pop-up {
+    overflow: hidden;
+}
+
+.visible-pop-up .pet-wrapper {
+    display: flex;
+}
+
+.pet-wrapper {
+    background: rgba(41, 41, 41, 0.6);
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    align-items: center;
+    display: none;
+}
+
+.fa-xmark {
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #e0b89b;
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    transition: all 0.2s;
+    position: absolute;
+    top: -60px;
+    right: -28px;
+    text-align: center;
+}
+
+.pet-popup {
+    margin-left: 40px;
+    margin-right: 40px;
+    max-width: 900px;
+    background: #FAFAFA;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.pet-image-container {
+    display: none;
+}
+
+.pet-image {
+    width: 100%;
+    display: block;
+}
+
+.pet-content {
+    margin: 12px;
+    text-align: center;
+}
+
+.pet-name {
+    font-size: 35px;
+    margin-bottom: 10px;
+    letter-spacing: 0.06em;
+}
+
+.pet-breed {
+    font-size: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 0.06em;
+}
+
+.pet-text {
+    margin-bottom: 24px;
+    letter-spacing: 0.06em;
+    font-size: 13px;
+    line-height: 110%;
+    text-align: justify;
+}
+
+.pet-age,
+.inoculations,
+.deseases,
+.parasites {
+    font-size: 15px;
+    letter-spacing: 0.06em;
+}
+
+.pet-information {
+    padding-left: 15px;
+    list-style: none;
+    text-align: left;
+}
+
+.information-item {
+    margin-bottom: 4px;
+}
+
+.information-item-field {
+    margin-right: 5px;
+}
+
+.pet-information .information-item::before {
+    content: "\2022";
+    color: #F1CDB3;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em; 
+    margin-left: -1em;
+  }
+
 @media only screen and (min-width: 768px) {
     .main-header {
         padding: 0 2rem 0 1.875rem;
@@ -265,6 +446,38 @@ body {
 
     .burger-menu {
         display: none;
+    }
+
+    .our-friends-pets {
+        justify-content: space-between;
+    }
+    
+    .pet-popup {
+        margin-left: 69px;
+        margin-right: 69px;
+    }
+
+    .fa-xmark {
+        right: -43px;
+    }
+
+    .pet-image-container {
+        display: block;
+        width: 58%;
+        overflow: hidden;
+        border-top-left-radius: 9px;
+        border-bottom-left-radius: 9px;
+    }
+
+    .pet-content {
+        text-align: left;
+        width: 42%;
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+
+    .pet-text {
+        text-align: left;
     }
 
     .footer-container {
@@ -348,6 +561,29 @@ body {
         margin-left: 35px;
     }
 
+    .pet-popup {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pet-content {
+        margin-left: 32px;
+        margin-right: 8px;
+    }
+
+    .pet-text {
+        margin-bottom: 40px;
+    }
+
+    .pet-breed {
+        margin-bottom: 42px;
+        font-size: 15px;
+    }
+
+    .information-item {
+        margin-bottom: 10px;
+    }
+
     .first-address-location,
     .second-address-location {
         text-align: center;
@@ -416,6 +652,10 @@ body {
     
     .friend-pet:hover {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .fa-xmark:hover {
+        background-color: #e0b89b;
     }
 
     .secondary-button:hover {
