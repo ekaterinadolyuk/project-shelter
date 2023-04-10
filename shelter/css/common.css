@@ -308,6 +308,97 @@ body {
     margin-left: 1.6875rem;
 }
 
+.pet-wrapper {
+    background: rgba(41, 41, 41, 0.6);
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    display: none;
+}
+
+.fa-xmark {
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #e0b89b;
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    transition: all 0.2s;
+    position: absolute;
+    top: -52px;
+    right: -52px;
+}
+
+.pet-popup {
+    margin: 0 auto;
+    max-width: 900px;
+    height: 500px;
+    background: #FAFAFA;
+    border-radius: 9px;
+    display: flex;
+    margin-top: calc(50vh - 250px);
+    align-items: center;
+    position: relative;
+}
+
+.pet-image-container {
+    width: 60%;
+    height: 100%;
+}
+
+.pet-image {
+    height: 100%;
+}
+
+.pet-content {
+    text-align: left;
+    width: 40%;
+    margin-right: 20px;
+}
+
+.pet-name {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.pet-breed {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.pet-text {
+    margin-bottom: 40px;
+}
+
+.pet-text,
+.pet-age,
+.inoculations,
+.deseases,
+.parasites {
+    font-size: 16px;
+    letter-spacing: 0.06em;
+}
+
+.pet-information {
+    padding-left: 15px;
+    list-style: none;
+}
+
+.information-item {
+    margin-bottom: 10px;
+}
+
+.pet-information .information-item::before {
+    content: "\2022";
+    color: #F1CDB3;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em; 
+    margin-left: -1em;
+  }
+
 @media only screen and (min-width: 768px) {
     .main-header {
         padding: 0 2rem 0 1.875rem;
@@ -488,6 +579,10 @@ body {
     
     .friend-pet:hover {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .fa-xmark:hover {
+        background-color: #e0b89b;
     }
 
     .secondary-button:hover {
