@@ -13,9 +13,9 @@ function showPopUp(pet) {
     document.querySelector('.pet-breed').innerText = pet.type + ' - ' + pet.breed;
     document.querySelector('.pet-text').innerText = pet.description;
     document.querySelector('.pet-age span').innerText = pet.age;
-    document.querySelector('.inoculations span').innerText = pet.inoculations;
-    document.querySelector('.diseases span').innerText = pet.diseases;
-    document.querySelector('.parasites span').innerText = pet.parasites;
+    document.querySelector('.inoculations span').innerText = pet.inoculations.join(', ');
+    document.querySelector('.diseases span').innerText = pet.diseases.join(', ');
+    document.querySelector('.parasites span').innerText = pet.parasites.join(', ');
 }
 
 function hidePopUp(event) {

@@ -16,7 +16,13 @@ function newSection() {
         let pet = arrayOfPets[i];
         let createATag = document.createElement('a');
         createATag.classList.add('friend-pet');
+        if(i === 0) {
         createATag.classList.add('first-pet');
+        } else if (i === 1) {
+            createATag.classList.add('second-pet');
+        } else {
+            createATag.classList.add('third-pet');
+        }
         createATag.setAttribute('href', '#');
         createATag.addEventListener('click', function (event){
             showPopUp(pet);
