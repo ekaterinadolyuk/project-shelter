@@ -338,6 +338,7 @@ body {
     position: absolute;
     top: -60px;
     right: -28px;
+    text-align: center;
 }
 
 .pet-popup {

@@ -10,6 +10,9 @@
         <link rel="stylesheet" href="./css/pets.css" type="text/css">
         <script src="./js/script.js"></script>
         <script src="./js/burger.js"></script>
+        <script src="./js/pets.js"></script>
+        <script src="./js/pop-up.js"></script>
+        <script src="./js/pets-pagination.js"></script>
         <title>Pets</title>
     </head>
     <body>
@@ -44,11 +47,31 @@
         </div>
         <main>
             <div class="our-friends-container">
+                <div class="pet-wrapper">
+                    <div class="pet-popup">
+                        <i class="fa-solid fa-xmark"></i>
+                        <div class="pet-image-container">
+                            <img class="pet-image" alt="pet-image" src="./img/pets-jennifer.png"></img>
+                        </div>
+                        <div class="pet-content">
+                            <div class="pet-name">Jennifer</div>
+                            <div class="pet-breed">Dog - Labrador</div>
+                            <div class="pet-text">Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if she has all of her favorite toys.</div>
+                            <ul class="pet-information">
+                                <li class="pet-age information-item"><b class="information-item-field">Age: </b><span>2 months</span></li>
+                                <li class="inoculations information-item"><b class="information-item-field">Inoculations: </b><span>none</span></li>
+                                <li class="diseases information-item"><b class="information-item-field">Diseases: </b><span>none</span></li>
+                                <li class="parasites information-item"><b class="information-item-field">Parasites: </b><span>none</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 <div class="section">
                     <section class="our-friends" id="our-friends">
                         <h1 class="our-friends-title">Our friends who<br>are looking for a house</h1>
                         <div class="our-friends-details">
                             <div class="our-friends-pets">
+                                <!--
                                 <a href="#" class="friend-pet first-friend-pet">
                                     <img src="./img/pets-katrine.png" alt="katrine" class="friend-pet-image">
                                     <div class="friend-pet-name">Katrine</div>
@@ -89,6 +112,7 @@
                                     <div class="friend-pet-name">Freddie</div>
                                     <span class="secondary-button">Learn more</span>
                                 </a>
+                                -->
                             </div>
                         </div>
                         <div class="container-for-arrows">
