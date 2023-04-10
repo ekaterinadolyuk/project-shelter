@@ -1,8 +1,19 @@
 window.addEventListener('load', newSection);
 
 function newSection() {
+    let arrayOfPets = [];
+    for(let i=0; i<=2; i++) {
+        /*to do: fill this array*/
+        let randomIndex = Math.floor(Math.random() * window.petsData.length);
+
+        // get random item
+        let item = window.petsData[randomIndex];
+        // add element to array
+        arrayOfPets.push(item);
+    }
+
     for(let i=0; i<3; i++) {
-        let pet = window.petsData[i];
+        let pet = arrayOfPets[i];
         let createATag = document.createElement('a');
         createATag.classList.add('friend-pet');
         createATag.classList.add('first-pet');
