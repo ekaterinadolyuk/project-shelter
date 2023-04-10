@@ -563,12 +563,24 @@ body {
     .pet-popup {
         margin-left: auto;
         margin-right: auto;
-        margin-top: calc(50vh - 250px);
-        height: 500px;
     }
 
-    .fa-xmark {
-        right: -52px;
+    .pet-content {
+        margin-left: 32px;
+        margin-right: 8px;
+    }
+
+    .pet-text {
+        margin-bottom: 40px;
+    }
+
+    .pet-breed {
+        margin-bottom: 42px;
+        font-size: 15px;
+    }
+
+    .information-item {
+        margin-bottom: 10px;
     }
 
     .first-address-location,
