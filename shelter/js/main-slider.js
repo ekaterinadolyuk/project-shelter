@@ -18,6 +18,10 @@ function newSection() {
         createATag.classList.add('friend-pet');
         createATag.classList.add('first-pet');
         createATag.setAttribute('href', '#');
+        createATag.addEventListener('click', function (event){
+            showPopUp(pet);
+            event.preventDefault();
+        });
 
         let createImgTag = document.createElement('img');
         createImgTag.setAttribute('src', pet.img);

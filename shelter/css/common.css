@@ -308,6 +308,14 @@ body {
     margin-left: 1.6875rem;
 }
 
+.visible-pop-up {
+    overflow: hidden;
+}
+
+.visible-pop-up .pet-wrapper {
+    display: block;
+}
+
 .pet-wrapper {
     background: rgba(41, 41, 41, 0.6);
     right: 0;
